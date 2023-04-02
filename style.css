@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Libre+Baskerville&family=Oswald:wght@500&display=swap');
+body{
+    font-family: 'Asap', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.continner{
+display: flex;
+gap: 133px;
+}
+.info-title{
+   margin-left: 77px;
+   margin-top: 77px;
+}
+.info-title h2{
+    font-weight: 700;
+   font-size: 52px; 
+   margin-bottom: 6px;
+}
+.info-title p{
+   
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+.info-title a{
+    background-color: #E02C6D;
+    padding: 10px 30px ;
+    border-radius: 41px;
+    margin-top: 16px;
+    color: white;
+    text-decoration: none;
+}
+.info>img{
+    width: 475px;
+    height: 475px;
+    background: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  margin-right: 132px;
+}
+/* our sponser */
+.sponser-ship{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    grid-column-gap: 60px;
+  margin-top: 100px;
+  border: lightslategray 1px solid;
+    border-left: none;
+    border-right: none;
+    padding: 36px;
+
+}
+.sponnser img{
+    width: 55.05px;
+}
+/* our collection */
+.collection-continner{
+    margin-top: 100px;
+}
+.popular{
+    text-align: center;
+    font-weight: 600;
+font-size: 28px;
+line-height: 70px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.collection{
+    width: 329px;
+   height: 476px;
+   background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 17px;
+}
+.buy{
+    font-weight: 400;
+font-size: 24px;
+line-height: 150%
+}
+.collection p{
+    font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+color: #787885;
+}
+.see {
+text-align: right;
+}
+.see a,i{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+}
+.collection img{
+    width: 300px;
+    height: 256px;
+    padding-bottom: 17px;
+   padding-top: 17px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+/* flex-futue */
+.flex-feture{
+    display: flex;
+    gap: 96px;
+   margin-top: 100px;
+   margin-left: 165px;
+   margin-right: 165px;
+   align-items: center;
+}
+.flex h1{
+    font-weight: 700;
+
+}
+.flex p{
+    font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #6C6C6C;
+}
+.flex a{
+    background-color: #E02C6D;
+    padding: 10px 30px ;
+    margin-top: 16px;
+    color: white;
+    text-decoration: none;  
+}
+.flex img{
+    width: 404px;
+    height: 270px;
+}
+/* footer */
+
+ footer{
+    margin-top: 100px;
+    background-color: #6C6C6C;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+}
+.text a {
+ font-size: 20px;
+ color: #FFFFFF;
+}
+.icon{
+    display: flex;
+    gap: 16px;
+}
+ .icon1{
+    color: #FFFFFF;
+} 
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+    }
+    main{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .continner{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+.info-title{
+    text-align: center;
+}
+.info-title h2{
+    font-weight: 700;
+font-size: 28px;
+
+}
+.info-title p{
+    font-size: 14px;
+
+}
+.info img{
+margin-right: 0;
+background-size: cover;
+background-position: center;
+width: 257px;
+height: 257px;
+}
+.sponser-ship{
+    grid-template-columns: repeat(1,1fr);
+  grid-row-gap: 14px;
+  grid-column-gap: 10px;
+  
+}
+.see{
+    text-align: center;
+}
+.collections{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+.flex-feture{
+  flex-direction: column-reverse;
+}
+.flex{
+    text-align: center;
+}
+.flex h1{
+   
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+}
+.flex img{
+    width: 299px;
+height: 188px;
+}
+    }
+  
