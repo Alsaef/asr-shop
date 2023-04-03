@@ -153,6 +153,12 @@ color: #6C6C6C;
     text-align: center;
     font-size: 14px;
 }
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .footer-text{
     display: flex;
     flex-direction: column;
@@ -230,6 +236,8 @@ height: 190px;
 
 .flex-feture{
   flex-direction: column-reverse;
+  margin-left: 0;
+  margin-right: 0;
 }
 .flex{
     text-align: center;
