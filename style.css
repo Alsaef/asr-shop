@@ -187,10 +187,11 @@ color: #6C6C6C;
         flex-direction: column-reverse;
         align-items: center;
     justify-content: center;
-    gap: 1px;
+    gap: 0;
 }
 .info-title{
     text-align: center;
+    margin-left: 0;
 }
 .info-title h2{
     font-weight: 700;
