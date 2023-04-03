@@ -35,10 +35,12 @@ gap: 133px;
     text-decoration: none;
 }
 .info>img{
-    width: 475px;
-    height: 475px;
+    width: 440px;
+height: 414px;
     background: url(images/Circle\ design.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin-right: 132px;
 }
 /* our sponser */
@@ -202,8 +204,8 @@ font-size: 28px;
 margin-right: 0;
 background-size: cover;
 background-position: center;
-width: 257px;
-height: 257px;
+width: 202px;
+height: 190px;
 }
 .sponser-ship{
     grid-template-columns: repeat(1,1fr);
@@ -274,8 +276,8 @@ font-size: 28px;
 margin-right: 0;
 background-size: cover;
 background-position: center;
-width: 257px;
-height: 257px;
+width: 202px;
+height: 190px;
 }
 .sponser-ship{
     grid-template-columns: repeat(1,1fr);
