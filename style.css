@@ -180,7 +180,7 @@ color: #6C6C6C;
     color: #FFFFFF;
 } 
 @media only screen and (max-width:688px) {
-    body{
+    .continner{
         width: 100%;
     }
     main{
